@@ -9,6 +9,7 @@ on:
     branches: [main]
     paths:
       - server.py
+      - api_catalog.json
       - requirements.txt
       - Dockerfile
       - .github/workflows/image.yml
