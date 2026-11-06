@@ -1,0 +1,5 @@
+# Ranges, not exact pins: the weekly rebuild picks up bug and security fixes
+# within these lines, and CI checks that the server still starts before publishing.
+mcp>=2.3,<3
+httpx>=0.28,<0.29
+uvicorn>=0.54,<1
